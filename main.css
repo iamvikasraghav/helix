@@ -1,0 +1,158 @@
+
+.body{
+    background-color: rgb(13, 13, 14) !important;
+
+}
+
+.nav-item{
+    color: azure;
+}
+
+.image{
+    background-color: rgb(13, 13, 14);
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(13, 13, 14);
+}
+.nav-link{
+    color: azure;
+}
+.del, .hsl , #explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    
+    color: azure;
+  }
+  #explore{
+      width: 140px;
+      height: 100% ;
+      padding: 0%;
+      background-color: #34B6DD;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    
+      
+      
+  }
+  .box{
+    background-color: rgb(13, 13, 14);
+    flex: 3;
+    width: 40%;
+    
+  }
+ .main{
+     display: flex;
+     flex-direction: row;
+     
+     
+ }
+ #loved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  color: azure;
+
+ }
+
+.container-fluid{
+    display: flex;
+    
+    
+}
+.product{
+    background-color: #0f0f0f;
+    width: 100%;
+    color: azure;
+    border-bottom: rgb(141, 141, 185);
+    margin-right: 0% !important;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    
+
+}
+.pro{
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.touch{
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+.lorem {
+    width: 50%;
+    margin-left: 8%;
+}
+.uct{
+    border-bottom-style: solid; 
+    border-bottom-width: 2px; 
+    border-color: #dbd7d7;
+
+}
+.airtouch{
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.box2{
+    background-color: #0f0f0f;
+}
+.laptop{
+    display: flex;
+    background-color:#0f0f0f;
+    
+}
+.phone{
+    background-color:#0f0f0f;
+    background-image: url("D:\trial\img\Air touch banne.png");
+    display: none;
+    color: #dbd7d7;
+}
+@media screen and (max-width : 480px){
+    .laptop{
+        display: none !important;
+    
+    }
+    .phone{
+        display: block !important;
+
+    }
+}
+
+.img-phone{
+    opacity: 20%;
+}
+.bg-overlay {
+    background-image: url("\img\Air touch banne.png");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+.lorem-2{
+    color: azure;
+}
+/* @media (min-width: 576px) { 
+    .containerr{
+      
+    }
+    
+ } */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
